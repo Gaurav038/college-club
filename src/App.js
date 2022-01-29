@@ -5,13 +5,21 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Pages/Home';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
+import Event from './components/Event/Event';
+import Resourse from './components/Resourse/Resourse';
 
 function App() {
   return (
   <BrowserRouter>
+    <Navbar />
     <Routes>
       <Route path="/" element={<Home />}></Route>
+      <Route path="/event" element={<Event/>}></Route>
+      <Route path="/resource" element={<Resourse/>}></Route>
     </Routes>
+    <Footer />
   </BrowserRouter>
   );
 }

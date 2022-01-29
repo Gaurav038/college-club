@@ -1,51 +1,59 @@
 import styled from "styled-components";
 import img from "../../Images/club22.png"
+import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 const Navbar = () => {
+  let location = useLocation();
+  const ActiveClr = (curr) => {
+    if (location.pathname === curr) {
+      return "active";
+    }
+  };
   return (
     <Container>
       <Content>
         <Logo>
-          <a href="/home">
+          <Link to="/">
             <img src={img} alt="" />
-          </a>
+          </Link>
         </Logo>
        
         <Nav>
           <NavListWrap>
-            <NavList className="active">
-              <a>
-              <i class="fas fa-home fa-2x"></i>
+            <NavList className={ActiveClr("/")}>
+              <Link to='/'>
+              <i className="fas fa-home fa-2x"></i>
                 <span>Home</span>
-              </a>
+              </Link>
+            </NavList>
+
+            <NavList className={ActiveClr("/event")}>
+              <Link to='/event'>
+                <i className="fas fa-home fa-2x"></i>
+                <span>Events</span>
+              </Link>
+            </NavList>
+
+            <NavList className={ActiveClr("/resource")}>
+              <Link to='/resource'>
+              <i className="fas fa-home fa-2x"></i>
+                <span>Project</span>
+              </Link>
             </NavList>
 
             <NavList>
-              <a>
-                <i class="fas fa-home fa-2x"></i>
-                <span>My Network</span>
-              </a>
+              <Link to='/Activity'>
+              <i className="fas fa-home fa-2x"></i>
+                <span>Activity</span>
+              </Link>
             </NavList>
 
             <NavList>
-              <a>
-              <i class="fas fa-home fa-2x"></i>
-                <span>Technology</span>
-              </a>
-            </NavList>
-
-            <NavList>
-              <a>
-              <i class="fas fa-home fa-2x"></i>
-                <span>Messaging</span>
-              </a>
-            </NavList>
-
-            <NavList>
-              <a>
-              <i class="fas fa-home fa-2x"></i>
+              <Link to='/Activity'>
+              <i className="fas fa-home fa-2x"></i>
                 <span>Notifications</span>
-              </a>
+              </Link>
             </NavList>
 
           </NavListWrap>
