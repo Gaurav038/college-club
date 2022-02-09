@@ -7,51 +7,10 @@ import "./About.css";
 function About() {
   return (
     <div>
-      {/* <div class="main-image">
+      <div class="main-image">
           <img src={home} alt="" />
-        </div> */}
-      <div className="main-head">
-        <div class="container">
-          <div class="header">
-            <h1>Join Us</h1>
-          </div>
-          <div class="main">
-            <form>
-              <span>
-                <i class="fa fa-user"></i>
-                <input type="text" placeholder="Username" name="" />
-              </span>
-              <br />
-              <span>
-                <i class="fa fa-lock"></i>
-                <input type="password" placeholder="password" name="" />
-              </span>
-              <br />
-              <span>
-                <i class="fa fa-lock"></i>
-                <input type="password" placeholder="password" name="" />
-              </span>
-              <br />
-              <span>
-                <i class="fa fa-lock"></i>
-                <input type="password" placeholder="password" name="" />
-              </span>
-              <br />
-              <span>
-                <i class="fa fa-lock"></i>
-                <input type="password" placeholder="password" name="" />
-              </span>
-              <br />
-              <span>
-                <i class="fa fa-lock"></i>
-                <input type="password" placeholder="password" name="" />
-              </span>
-              <br />
-              <button>Register</button>
-            </form>
-          </div>
         </div>
-      </div>
+      
       <section class="about" id="about">
         <h1 class="heading">
           {" "}

@@ -9,6 +9,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import Event from './components/Event/Event';
 import Resourse from './components/Resourse/Resourse';
+import Form from './components/Form/Form';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<Home />}></Route>
       <Route path="/event" element={<Event/>}></Route>
       <Route path="/resource" element={<Resourse/>}></Route>
+      <Route path="/form" element={<Form/>}></Route>
     </Routes>
     <Footer />
   </BrowserRouter>

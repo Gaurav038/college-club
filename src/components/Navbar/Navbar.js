@@ -49,10 +49,10 @@ const Navbar = () => {
               </Link>
             </NavList>
 
-            <NavList>
-              <Link to='/Activity'>
+            <NavList className={ActiveClr("/form")}>
+              <Link to='/form'>
               <i className="fas fa-home fa-2x"></i>
-                <span>Notifications</span>
+                <span>Registration</span>
               </Link>
             </NavList>
 

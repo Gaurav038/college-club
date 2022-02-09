@@ -28,10 +28,11 @@ html{
 
 section{
     margin: 2rem 5%;
-    border-radius: 3%;}
+    border-radius: 3rem;
+}
 
 section:nth-child(even){
-    background: #9890ec;
+    background: #f3f2ef;
 }
 
 .heading{
