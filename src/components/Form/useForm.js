@@ -28,7 +28,7 @@ const useForm = (callback, validate) => {
 
 const postData = async(e) => {
     const {username, email, Phone, Branch, interest} = values;
-    const res = await fetch("https://college-club-83f73-default-rtdb.firebaseio.com/form.json", 
+    const res = await fetch("https://club-22-43fb9-default-rtdb.firebaseio.com/form.json", 
     {
         method: "POST",
         headers: {
