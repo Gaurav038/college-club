@@ -7,8 +7,8 @@ import "./About.css";
 function About() {
   return (
     <div>
-      <div class="main-image">
-          <img src={home} alt="" />
+      <div class="main-image home" id="home" style={{ backgroundImage: `url(${home})` }}>
+          <button>JOIN US</button>
         </div>
       
       <section class="about" id="about">
