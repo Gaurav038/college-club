@@ -1,41 +1,58 @@
-.footer .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
-    gap:2rem;
-}
 
-.footer .box-container .box h3{
-    font-size: 2.5rem;
-    color:var(--black);
-    padding: 1rem 0;
-}
+.foot{
+   background: #0f0e0f; 
 
-.footer .box-container .box a{
-    display: block;
+}
+footer {
+  position: relative;
+ height: 150px;
+    color: white;
+    display: flex;
     font-size: 1.5rem;
-    color:var(--light-color);
-    padding: 1rem 0;
-}
+    align-items: center;
+    margin-top: auto;
+  }
+  
+  .midFooter {
+display: block;
+font-size: 1.5rem;
 
-.footer .box-container .box a i{
-    padding-right: .5rem;
-    color:var(--green);
-}
-
-.footer .box-container .box a:hover i{
-    padding-right:2rem;
-}
-
-.footer .credit{
-    padding: 1rem;
-    padding-top: 2rem;
-    margin-top: 2rem;
+color: white;
     text-align: center;
-    font-size: 2rem;
-    color:var(--light-color);
-    border-top: .1rem solid rgba(0, 0, 0, .1);
-}
+  }
+  
+  .midFooter > p {
+    max-width: 60%;
+    margin: 1vmax auto;
+  }
+  
+  .rightFooter,.leftFooter {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .rightFooter{
+    margin-left: 25rem;
+  }
+  .leftFooter {
+    margin-left: -15rem;
 
-.footer .credit span{
-    color:var(--green);
-}
+  }
+  .rightFooter > h4 , .leftFooter > h4 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0.5vmax;
+
+  }
+  .rightFooter > a, .leftFooter > a {
+    text-decoration: none;
+    color: white;
+    margin: 0.5vmax;
+  }
+  @media screen and (max-width: 700px) {
+    footer {
+      font-size: 1.2rem;
+    }
+  }
+ 

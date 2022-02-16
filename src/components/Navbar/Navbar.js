@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../../Images/club22.png"
+import img from "../../Images/club2.png"
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
@@ -42,8 +42,8 @@ const Navbar = () => {
               </Link>
             </NavList>
 
-            <NavList>
-              <Link to='/Activity'>
+            <NavList className={ActiveClr("/activity")}>
+              <Link to='/activity'>
               <i className="fas fa-home fa-2x"></i>
                 <span>Activity</span>
               </Link>
@@ -65,7 +65,7 @@ const Navbar = () => {
 
 const Container = styled.div`
   background-color: white;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 3px solid rgba(0, 0, 0, 0.08);
   left: 0;
   padding: 0 24px;
   position: fixed;

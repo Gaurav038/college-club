@@ -1,10 +1,10 @@
 import React from 'react';
-import "./Event.css"
 
-function Event() {
-  return <div class="container-timeline">   
+function Activity() {
+  return <div class="container-timeline">
+                <h1>Activity List</h1>
+
   <div class="timeline">
-
     <ul>
       <li>
         <div class="timeline-content">
@@ -39,4 +39,4 @@ function Event() {
 </div>
 }
 
-export default Event;
+export default Activity;

@@ -9,7 +9,7 @@ function Resourse() {
   
 
 <div className="row">
-      <h1 className="text-center">WebDev List</h1>
+      <h1 className="text-center">WebDev Project List</h1>
   </div>
   <div className="row">
       <div className="col">
@@ -38,7 +38,7 @@ function Resourse() {
 
 
   <div className="row">
-      <h1 className="text-center">coding List</h1>
+      <h1 className="text-center">Android Project List</h1>
   </div>
   <div className="row">
       <div className="col">
@@ -66,7 +66,7 @@ function Resourse() {
   </div>
 
   <div className="row">
-      <h1 className="text-center">Employee List</h1>
+      <h1 className="text-center">Machine learning List</h1>
   </div>
   <div className="row">
       <div className="col">
