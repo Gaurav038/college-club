@@ -2,6 +2,11 @@ import styled from "styled-components";
 import img from "../../Images/club2.png"
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
+import { BsCalendar2EventFill} from "react-icons/bs";
+import { AiFillProject } from "react-icons/ai";
+import { FaDatabase } from "react-icons/fa";
+import { RiLoginCircleFill } from "react-icons/ri";
+
 
 const Navbar = () => {
   let location = useLocation();
@@ -30,28 +35,28 @@ const Navbar = () => {
 
             <NavList className={ActiveClr("/event")}>
               <Link to='/event'>
-                <i className="fas fa-home fa-2x"></i>
+                <BsCalendar2EventFill size={23} />
                 <span>Events</span>
               </Link>
             </NavList>
 
             <NavList className={ActiveClr("/resource")}>
               <Link to='/resource'>
-              <i className="fas fa-home fa-2x"></i>
+              <FaDatabase size={23} />
                 <span>Project</span>
               </Link>
             </NavList>
 
             <NavList className={ActiveClr("/activity")}>
               <Link to='/activity'>
-              <i className="fas fa-home fa-2x"></i>
-                <span>Activity</span>
+                <AiFillProject size={23} />              
+              <span>Activity</span>
               </Link>
             </NavList>
 
             <NavList className={ActiveClr("/form")}>
               <Link to='/form'>
-              <i className="fas fa-home fa-2x"></i>
+              <RiLoginCircleFill size={23} />
                 <span>Registration</span>
               </Link>
             </NavList>

@@ -7,23 +7,23 @@ import "./About.css";
 function About() {
   return (
     <div>
-      <div class="main-image home" id="home" style={{ backgroundImage: `url(${home})` }}>
+      <div className="main-image home" id="home" style={{ backgroundImage: `url(${home})` }}>
           <button>JOIN US</button>
         </div>
       
-      <section class="about" id="about">
-        <h1 class="heading">
+      <section className="about" id="about">
+        <h1 className="heading">
           {" "}
-          <span>about</span> us{" "}
+          <span>LEARN, </span> Build innovate{" "}
         </h1>
 
-        <div class="row">
-          <div class="image">
+        <div className="row">
+          <div className="image">
             <img src={img} />
           </div>
 
-          <div class="content">
-            <h3>Club -22 The coding club</h3>
+          <div className="content">
+            <h3>About Us</h3>
             <p>
               “Everybody should learn to program a computer because it teaches
               you how to think” -Steve Jobs
@@ -46,74 +46,74 @@ function About() {
           </div>
         </div>
       </section>
-      <section class="review" id="review">
-        <div class="box-container">
-          <div class="box">
+      <section className="review" id="review">
+        <div className="box-container">
+          <div className="box">
             <h3>Together, we will learn.</h3>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Learn new tech in a short
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Learn new tech in a short
               period of time
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Provide one another with
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Provide one another with
               topic resources
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Meetings and sessions on a
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Meetings and sessions on a
               weekly basis
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Try to clear each other's
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Try to clear each other's
               doubts
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> The purchased task must be
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> The purchased task must be
               completed on time
             </p>
           </div>
 
-          <div class="box">
+          <div className="box">
             <h3>Together, we will build</h3>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Let's put what we've learned
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Let's put what we've learned
               into practice
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Make a small, fancy project
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Make a small, fancy project
               based on what we've learned so far.
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Solve some good DSA problems
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Solve some good DSA problems
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Stuck! Wait a minute! Talk to
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Stuck! Wait a minute! Talk to
               your teammates
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Be on time with your tasks
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Be on time with your tasks
             </p>
           </div>
 
-          <div class="box">
+          <div className="box">
             <h3>Together, we will innovate.</h3>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> It's time to create something
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> It's time to create something
               big or innovative
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Build real-life projects as
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Build real-life projects as
               per market needs
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Solve some complex problems
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Solve some complex problems
               with online judges, eg. leetcode , interview bit, CodeChef.
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Participate in hackathons and
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Participate in hackathons and
               coding contests
             </p>
-            <p class="text">
-              <i class="fas fa-chevron-right"></i> Organizing a college level
+            <p className="text">
+              <i className="fas fa-chevron-right"></i> Organizing a college level
               tech-fest.
             </p>
           </div>

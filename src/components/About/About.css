@@ -1,5 +1,7 @@
+
 .main-image img{
     width: 100%;
+    background-size: 98% 75%!important;
 }
 .about .row{
     display: flex;
@@ -83,6 +85,7 @@
 .home{
     display: flex;
     margin:2rem auto;
+    margin-bottom: -10rem;
     align-items:center;
     background-size: cover;
     width: 100%;

@@ -32,7 +32,7 @@ section{
 }
 
 section:nth-child(even){
-    background: #f3f2ef;
+    background: white;;
 }
 
 .heading{

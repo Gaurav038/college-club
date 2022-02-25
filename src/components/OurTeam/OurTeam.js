@@ -1,5 +1,5 @@
 import React from 'react'
-import img from "../../Images/Home.jpg"
+import img from "../../Images/drNew.png"
 import "./OurTeam.css"
 
 function OurTeam() {
