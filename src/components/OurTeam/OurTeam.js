@@ -66,7 +66,7 @@ function OurTeam() {
         <div class="box">
             <img src={img5} alt="" />
             <h3>Neeraj kapkoti</h3>
-            <span>Competitive coding head</span>
+            <span>Competitive coding co-ordinator</span>
             <div class="share">
                 <a href="https://github.com/neeraj-singh-kapkoti" class="fab fa-github"></a>
                 <a href="https://www.linkedin.com/in/neeraj-singh-kapkoti/" class="fab fa-linkedin"></a>

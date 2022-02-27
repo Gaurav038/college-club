@@ -20,6 +20,13 @@ function Event() {
           <p>A basic programming contest on foundational topics    </p>
         </div>
       </li>
+      <li>
+        <div class="timeline-content">
+          <h3 class="date">28th feb, 2022</h3>
+          <h1>Starter 2 challenge</h1>
+          <p>A basic programming contest on foundational topics .</p>
+        </div>
+      </li>
     
     </ul>
   </div>
