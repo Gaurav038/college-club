@@ -8,32 +8,13 @@ function Activity() {
     <ul>
       <li>
         <div class="timeline-content">
-          <h3 class="date">20th may, 2010</h3>
-          <h1>Heading 1</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <h3 class="date">01th march 2022</h3>
+          <h1>Lakshya 450</h1>
+          <p>A enoemous Programming contest , includes all dsa Topics covers by 400+ questions .  Contains  foundation Topics to advanced Topics.  Learn and grow with us .  </p>
         </div>
       </li>
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">20th may, 2010</h3>
-          <h1>Heading 2</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
-        </div>
-      </li>
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">20th may, 2010</h3>
-          <h1>Heading 3</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
-        </div>
-      </li>
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">20th may, 2010</h3>
-          <h1>Heading 4</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
-        </div>
-      </li>
+     
+        
     </ul>
   </div>
 </div>

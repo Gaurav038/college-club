@@ -98,7 +98,7 @@ const Logo = styled.span`
 const Nav = styled.nav`
   margin-left: auto;
   display: block;
-  @media (max-width: 768px) {
+  @media (max-width: 650px) {
     position: fixed;
     left: 0;
     bottom: 0;

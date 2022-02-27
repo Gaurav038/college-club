@@ -1,20 +1,20 @@
 import React from "react";
 import img from "../../Images/about.gif";
 import home from "../../Images/home.png";
-
+import {Link} from "react-router-dom";
 import "./About.css";
 
 function About() {
   return (
     <div>
       <div className="main-image home" id="home" style={{ backgroundImage: `url(${home})` }}>
-          <button>JOIN US</button>
+          <button><Link to="/form">JOIN US</Link></button>
         </div>
       
       <section className="about" id="about">
         <h1 className="heading">
           {" "}
-          <span>LEARN, </span> Build innovate{" "}
+          <span>LEARN, </span> Build & innovate{" "}
         </h1>
 
         <div className="row">
@@ -49,7 +49,7 @@ function About() {
       <section className="review" id="review">
         <div className="box-container">
           <div className="box">
-            <h3>Together, we will learn.</h3>
+            <h3> Together, we will learn.</h3>
             <p className="text">
               <i className="fas fa-chevron-right"></i> Learn new tech in a short
               period of time

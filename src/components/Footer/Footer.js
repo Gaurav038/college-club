@@ -20,7 +20,7 @@ const Footer = () => {
 
       <div className="rightFooter">
         <h4>Contact Us</h4>
-        <a><HiLocationMarker /> NPSEI Gic road SIT Campus, Pithorgarh - 262402</a>
+        <a><HiLocationMarker /> NPSEI Gic road SIT Campus, Pithorgarh - 262501</a>
         <a><FaPhoneSquareAlt /> +91 8171280446</a>
         <a><MdEmail /> club22.fun@gmail.com</a>
       

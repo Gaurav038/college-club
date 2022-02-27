@@ -8,32 +8,19 @@ function Event() {
     <ul>
       <li>
         <div class="timeline-content">
-          <h3 class="date">20th may, 2010</h3>
-          <h1>Heading 1</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <h3 class="date">20th feb, 2022</h3>
+          <h1>Introduction about basic technical terms</h1>
+          <p>Introdued about technical terms like  GiThub && LInkiDin  and many more .....      ,    A quick demo of how things works && some refernce to the materials .  </p>
         </div>
       </li>
       <li>
         <div class="timeline-content">
-          <h3 class="date">20th may, 2010</h3>
-          <h1>Heading 2</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
+          <h3 class="date">12th feb, 2022</h3>
+          <h1>Starter one challenge</h1>
+          <p>A basic programming contest on foundational topics    </p>
         </div>
       </li>
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">20th may, 2010</h3>
-          <h1>Heading 3</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
-        </div>
-      </li>
-      <li>
-        <div class="timeline-content">
-          <h3 class="date">20th may, 2010</h3>
-          <h1>Heading 4</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur tempora ab laudantium voluptatibus aut eos placeat laborum, quibusdam exercitationem labore.</p>
-        </div>
-      </li>
+    
     </ul>
   </div>
 </div>

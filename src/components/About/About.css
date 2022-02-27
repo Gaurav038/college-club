@@ -20,6 +20,8 @@
 
 .about .row .content{
     flex:1 1 45rem;
+    padding: 0 1.4rem;
+
 }
 
 .about .row .content h3{
@@ -49,14 +51,16 @@
     border-radius: .5rem;
     padding:2.5rem 0;
     background: #fff;
-    text-align: center;
+    text-align: left;
     position: relative;
     overflow: hidden;
     z-index: 0;
+    padding: 1.4rem;
+
 }
 .review .box-container .box:hover{
     box-shadow: 8px var(--box-shadow);
-
+    
 }
 
 
@@ -108,10 +112,13 @@
     );
     height: 50px;
     width: 200px;
-    color: #f1f4f7;
     font-size: 3rem;
     box-shadow: 0 6px 6px #2a2b2d;
     border-radius: 1rem;
+}
+.home button a{
+    color: #f1f4f7;
+    text-decoration: none;
 }
 
 .home button:hover{
