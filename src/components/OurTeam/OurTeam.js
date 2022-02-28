@@ -62,27 +62,6 @@ function OurTeam() {
             </div>
         </div>
 
-
-        <div class="box">
-            <img src={img5} alt="" />
-            <h3>Neeraj kapkoti</h3>
-            <span>Competitive coding co-ordinator</span>
-            <div class="share">
-                <a href="https://github.com/neeraj-singh-kapkoti" class="fab fa-github"></a>
-                <a href="https://www.linkedin.com/in/neeraj-singh-kapkoti/" class="fab fa-linkedin"></a>
-            </div>
-        </div>
-
-        <div class="box">
-            <img src={img4} alt="" />
-            <h3>Lokesh Pandey</h3>
-            <span>Competitive coding head</span>
-            <div class="share">
-                <a href="https://github.com/lokeshs333" class="fab fa-github"></a>
-                <a href="https://www.instagram.com/_lokesh_pandey_/" class="fab fa-instagram"></a>
-              <a href="https://www.linkedin.com/in/lokesh-pandey-a08574202/" class="fab fa-linkedin"></a>
-            </div>
-        </div>
         <div class="box">
             <img src="" alt="" />
             <h3>Vijay nariyal</h3>
@@ -135,6 +114,17 @@ function OurTeam() {
             <div class="share">
                 <a href="https://github.com/Gaurav038" class="fab fa-github"></a>
               <a href="https://www.linkedin.com/in/gaurav-singh-b2277a1a5" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src={img4} alt="" />
+            <h3>Lokesh Pandey</h3>
+            <span>Competitive coding Co-ordinate</span>
+            <div class="share">
+                <a href="https://github.com/lokeshs333" class="fab fa-github"></a>
+                <a href="https://www.instagram.com/_lokesh_pandey_/" class="fab fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/lokesh-pandey-a08574202/" class="fab fa-linkedin"></a>
             </div>
         </div>
         <div class="box">
